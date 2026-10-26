@@ -7,6 +7,8 @@ mcp-integrity is a local integrity monitor for stdio MCP servers. It sits betwee
 
 **Product:** [FAULTLINE mcp-guard](https://www.faultline-labs.com/products/mcp-guard/) · **PyPI package and CLI:** [`mcp-integrity`](https://pypi.org/project/mcp-integrity/) · **Company:** [FAULTLINE](https://www.faultline-labs.com/). This is the local stdio MCP integrity monitor from FAULTLINE; the package and command are named `mcp-integrity`.
 
+**How does it work?** [A local firewall for MCP tool calls](https://www.faultline-labs.com/blog/a-local-firewall-for-mcp-tool-calls/) explains tool-description poisoning, audit versus enforce mode, and the scanner's measured limits.
+
 ## 30-second install
 
 Requires Python 3.10 or newer and an existing stdio MCP server configured in your client. This release is tested on macOS and Linux. Windows has not been validated.
