@@ -1,6 +1,6 @@
 # FAULTLINE mcp-guard (mcp-integrity)
 
-[![CI](https://github.com/samirsawarkar/mcp-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/samirsawarkar/mcp-guard/actions)
+[![CI](https://github.com/Faultline-lab/mcp-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/Faultline-lab/mcp-guard/actions)
 [![PyPI](https://img.shields.io/pypi/v/mcp-integrity.svg)](https://pypi.org/project/mcp-integrity/)
 
 mcp-integrity is a local integrity monitor for stdio MCP servers. It sits between your AI client and your servers, logs every tool call (argument names only), scans tool descriptions for poisoning, pins tool definitions to catch silent changes, and in enforce mode blocks calls that break the rules.
