@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-26
+
+- Update package metadata and bundled README to identify FAULTLINE MCP Guard, link to its product page, and point to the current organization repository. Runtime behavior is unchanged.
+
 ## 0.1.0 - 2026-10-01
 
 - Stdio proxy between an MCP client and a server. Logs every tool call with argument names only, never values.
